@@ -4,6 +4,13 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>sedona</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="main.css" />
   </head>
   <body>
     <header class="main-header">
@@ -14,68 +21,82 @@
     </header>
 
     <main class="main-content">
-      <section class="firsth-screen">
-        <img class="firsth-screen__image" src="img/Frame 7.png" alt="" />
-        <h1 class="firsth-screen__title">
+      <section class="first-screen">
+        <img class="first-screen__image" src="img/Frame 7.png" alt="" />
+        <h1 class="first-screen__title">
           СЕДОНА — небольшой городок в АРИЗОНЕ, зАСЛУЖИвающий большего!
         </h1>
-        <p class="firsth-screen__text">
+        <p class="first-screen__text">
           Рассмотрим 5 причин, по которым Седона круче, чем гранд каньон!
         </p>
       </section>
+
       <section class="benefits">
         <ul class="benefits__list">
           <li class="benefit">
+            <div class="benefit__text-container">
             <h2 class="benefit__title">НАСТОЯЩИЙ ГОРОДОК</h2>
             <p class="benefit__text">— №1 —</p>
             <p class="benefit__text">
               СЕДОНА НЕ АТТРАКЦИОН ДЛЯ ТУРИСТОВ, ТАМ ТЕЧЕТ СВОЯ ЖИЗНЬ
             </p>
+          </div>
             <img class="benefit__img" src="img/photo-city@1x 1.png" alt="" />
             <ul class="inner-benefits">
               <li class="inner-benefit">
                 <h3 class="inner-benefit__title">Жилье</h3>
-                <p class="inner-benefit__text">
+                <p class="inner-benefit__text">                 
                   Рекомендуем пожить в настоящем мотеле, все как в кино!
                 </p>
               </li>
               <li class="inner-benefit">
+                <div class="benefit__text-container">
                 <h3 class="inner-benefit__title">Еда</h3>
                 <p class="inner-benefit__text">
                   Всегда заказывайте ФИРМЕННЫЙ БУРГЕР, Вы НЕ разочаруетесь!
                 </p>
+                </div>
               </li>
               <li class="inner-benefit">
+                <div class="benefit__text-container">
                 <h3 class="inner-benefit__title">СУВЕНИРЫ</h3>
                 <p class="inner-benefit__text">
                   Не только китайского, но и местного производства!
                 </p>
+                </div>
               </li>
             </ul>
           </li>
           <li class="benefit">
+            <div class="benefit__text-container">
             <h2 class="benefit__title">ТАМ ЕСТЬ Мост дьявола</h2>
             <p class="benefit__text">— №2 —</p>
             <p class="benefit__text">
               Да, по нему можно пройти! Если вы осмелитесь, конечно
             </p>
+            </div>
             <img class="benefit__img" src="img/photo-bridge@1x 1.png" alt="" />
           </li>
           <li class="benefit">
+            <div class="benefit__text-container">
             <h2 class="benefit__title">
-              НЕБОЛЬШАЯ ПЛОЩАДЬВСЕ интересные места находятся очень близко
+              НЕБОЛЬШАЯ ПЛОЩАДЬ ВСЕ интересные места находятся очень близко
             </h2>
             <p class="benefit__text">— №3 —</p>
             <p class="benefit__text">интересные места находятся очень близко</p>
+            </div>
           </li>
           <li class="benefit">
+            <div class="benefit__text-container">
             <h2 class="benefit__title">КРАСИВАЯ ДОРОГА</h2>
             <p class="benefit__text">— №4 —</p>
             <p class="benefit__text">
               ЕХАТЬ В СЕДОНУ ИЗ ЛАС-ВЕГАСА совсем НЕ СКУЧНО!
             </p>
+            </div>
           </li>
           <li class="benefit">
+            <div class="benefit__text-container">
             <h2 class="benefit__title">
               МАЛО ТУРИСТОВБольшинство едет в гранд каньон и толпится там
             </h2>
@@ -83,6 +104,7 @@
             <p class="benefit__text">
               Большинство едет в гранд каньон и толпится там
             </p>
+            </div>
           </li>
         </ul>
       </section>
@@ -97,7 +119,7 @@
         </button>
         <iframe
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3381329.484497448!2d-114.57143533017253!3d34.14430623056486!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x872b08ebcb4c186b%3A0x423927b17fc1cd71!2z0JDRgNC40LfQvtC90LAsINCh0KjQkA!5e0!3m2!1sru!2sfr!4v1688742923541!5m2!1sru!2sfr"
-          width="600"
+          width="100%"
           height="450"
           style="border: 0"
           allowfullscreen=""
@@ -131,5 +153,6 @@
         <img class="main-footer__logo" src="img/Group.svg" alt="" />
       </div>
     </footer>
+    <script src="bundle.js"></script>
   </body>
 </html>

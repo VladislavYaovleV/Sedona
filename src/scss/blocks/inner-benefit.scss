@@ -1,0 +1,26 @@
+.inner-benefit__title {
+  color: #000;
+  font-family: PT Sans;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 26px; /* 144.444% */
+  text-transform: uppercase;
+}
+
+.inner-benefit__text {
+  color: #333;
+  font-family: PT Sans;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 21px; /* 150% */
+  text-transform: uppercase;
+}
+
+.inner-benefits {
+  position: absolute;
+  @include centering-width-pseudo-element();
+
+  padding: 31px 30px 52px 30px ;
+}

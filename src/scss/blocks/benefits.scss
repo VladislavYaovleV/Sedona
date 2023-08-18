@@ -1,0 +1,35 @@
+.benefit__title {
+  color: #fff;
+  text-align: center;
+  font-family: PT Sans;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 26px; /* 144.444% */
+  text-transform: uppercase;
+}
+
+.benefit__text {
+  color: #fff;
+  text-align: center;
+  font-family: PT Sans;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 21px; /* 150% */
+  text-transform: uppercase;
+}
+
+.benefit__text-container {
+  background-color: #81B3D2;
+  padding: 54px 19px 40px;
+}
+
+.benefit {
+  &:first-of-type{
+    &before{
+    @include default-pseudo-element(100vw,31px);
+    background: url(./../../public/img/copy.svg);
+    }
+  }
+}

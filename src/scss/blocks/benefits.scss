@@ -21,15 +21,37 @@
 }
 
 .benefit__text-container {
-  background-color: #81B3D2;
+  background-color: #81b3d2;
   padding: 54px 19px 40px;
 }
 
 .benefit {
-  &:first-of-type{
-    &before{
-    @include default-pseudo-element(100vw,31px);
-    background: url(./../../public/img/copy.svg);
+  &:first-of-type {
+    &::before {
+      @include default-pseudo-element(100vw, 31px);
+      background: url(./../../public/img/copy.svg) no-repeat;
+      background-size: cover;
     }
   }
+  &--gray {
+    background-color: #eeeeee;
+    & .benefit__text-container {
+      background-color: #eeeeee;
+      border-bottom: 1px solid #d6d6d6;
+      margin: 0 18px;
+    }
+  }
+}
+
+.benefit--gray {
+  & .benefit__title {
+    color: #000000;
+  }
+  .benefit__text {
+    color: #000000;
+  }
+}
+
+.benefit__img {
+  width: 100%;
 }

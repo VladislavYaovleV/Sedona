@@ -19,3 +19,30 @@
   line-height: 21px; /* 150% */
   text-transform: uppercase;
 }
+                         
+.main-footer__link{
+width: 48px;
+height: 48px;
+background-color: #81B3D2;
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+
+.main-footer__list {
+  display: flex;
+  margin: 0 auto;
+  gap: 6px;
+  width: fit-content;
+  margin-bottom: 21px;
+}
+
+.main-footer__info {
+  display: flex; 
+  margin: 0 auto;
+  width: fit-content;
+  gap: 7px;
+  align-items: center;
+  margin-bottom: 21px;
+}

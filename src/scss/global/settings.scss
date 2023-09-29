@@ -22,3 +22,13 @@ button {
   clip: rect(0 0 0 0); 
   overflow: hidden;
 }
+
+.body__container {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+html, section, boddy {
+    max-width: 100vw;
+    overflow-x: hidden;
+}

@@ -19,8 +19,29 @@
 }
 
 .inner-benefits {
-  position: absolute;
-  @include centering-width-pseudo-element();
+  padding: 31px 30px 52px 65px;
+}
 
-  padding: 31px 30px 52px 30px ;
+.inner-benefit {
+  position: relative;
+  &::before { 
+   top: 0; 
+   left: -47px;
+    @include default-pseudo-element(40px);
+  }
+  &--souvenir {
+    &::before {
+      background: url(./../../public/img/souvenir.svg);
+    }
+  }
+  &--eatin {
+    &::before {
+      background: url(./../../public/img/eatin.svg);
+    }
+  }
+  &--house {
+    &::before {
+      background: url(./../../public/img/house.svg);
+    }
+  }
 }
